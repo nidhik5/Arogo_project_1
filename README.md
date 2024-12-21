@@ -28,3 +28,22 @@ Delayed: The target variable, indicating whether the shipment was delayed (Yes/N
 **Model Evaluation**: Evaluate the models using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
 
 **Deployment**: Deploy the model via an API (Flask/FastAPI) to make predictions based on new shipment data.
+
+
+**Running Locally**
+
+**Steps:**
+
+**Step1:** Clone the repository:
+
+**Step2:** git clone <repository-link> cd <repository-directory> 
+
+**Step3:** pip install -r requirements.txt 
+
+**Start the application:**
+
+python app.py 
+
+**Access the application locally:**
+
+Open your browser and navigate to http://127.0.0.1:5000
