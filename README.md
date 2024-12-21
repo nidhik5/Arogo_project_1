@@ -21,8 +21,6 @@ Weather Conditions: The weather during the shipment (Clear, Rain, Fog).
 Traffic Conditions: The traffic conditions during the shipment (Light, Moderate, Heavy).
 Delayed: The target variable, indicating whether the shipment was delayed (Yes/No).
 
-**Objective**
-
 **Data Cleaning & Preprocessing**: Prepare the data by handling missing values, encoding categorical variables, and scaling numerical features.
 
 **Model Development**: Train machine learning models (Logistic Regression, Random Forest, and others) to predict shipment delays.
