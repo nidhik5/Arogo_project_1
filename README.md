@@ -23,7 +23,10 @@ Delayed: The target variable, indicating whether the shipment was delayed (Yes/N
 
 **Objective**
 
-*Data Cleaning & Preprocessing*: Prepare the data by handling missing values, encoding categorical variables, and scaling numerical features.
-*Model Development*: Train machine learning models (Logistic Regression, Random Forest, and others) to predict shipment delays.
-*Model Evaluation*: Evaluate the models using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
-*Deployment*: Deploy the model via an API (Flask/FastAPI) to make predictions based on new shipment data.
+**Data Cleaning & Preprocessing**: Prepare the data by handling missing values, encoding categorical variables, and scaling numerical features.
+
+**Model Development**: Train machine learning models (Logistic Regression, Random Forest, and others) to predict shipment delays.
+
+**Model Evaluation**: Evaluate the models using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
+
+**Deployment**: Deploy the model via an API (Flask/FastAPI) to make predictions based on new shipment data.
