@@ -52,14 +52,14 @@ def predict():
     )
     graph1 = fig1.to_html(full_html=False)
 
-    # Example graph 2: Distance vs Delay
-    fig2 = px.scatter(
-        df, x='Distance (km)', y='Delay Duration', color='Delayed',
-        title="Distance vs. Delay Duration",
-        labels={'Distance (km)': 'Distance (km)', 'Delay Duration': 'Delay Duration (Days)'}
-    )
+# Sunburst Chart
+    fig2 = px.sunburst(df, path=['Weather Conditions', 'Traffic Conditions', 'Delayed'],
+                       values='Distance (km)',
+                       title="Impact of Weather and Traffic on Delays",
+                       color='Delayed',
+                       color_continuous_scale='RdBu')
+    fig2.update_layout(title_x=0.5)
     graph2 = fig2.to_html(full_html=False)
-
     return render_template('result.html', prediction=prediction, graph1=graph1, graph2=graph2)
 
 if __name__ == "__main__":
